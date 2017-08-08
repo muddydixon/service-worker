@@ -1,1 +1,3 @@
-console.log("sw");
+self.addEventListener("install", (ev)=>{
+  console.log("sw");
+});
